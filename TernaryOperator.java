@@ -4,14 +4,12 @@ public class TernaryOperator {
 
     // ternary operator
     // ? :
-
+    
     int age = 20;
 
     String result = age <= 18 ? "Young" : "Old";
 
     System.out.println(result);
 
-
   }
-
 }
