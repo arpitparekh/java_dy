@@ -62,7 +62,6 @@ public class LoopInsideLoop {
 
       System.out.println();
     }
-
     /*
 
          *
@@ -79,7 +78,7 @@ public class LoopInsideLoop {
         System.out.print(" ");
       }
 
-      for (int j = 1; j <= i; j++) { // 1  // 2 // 3  /4 // 5
+      for (int j = 1; j <= 2*i-1; j++) { // 1=>1  // 2=>3 // 3=>5  /4=>7 //5 =>9
         System.out.print("*");
       }
       System.out.println();
@@ -101,7 +100,7 @@ public class LoopInsideLoop {
         System.out.print(" ");
       }
 
-      for (int j = 1; j <= 6-i; j++) { // 1 // 2 // 3 /4 // 5
+      for (int j = 1; j <= 11-(2*i); j++) { // 1 // 2 // 3 /4 // 5
         System.out.print("*");
       }
       System.out.println();
