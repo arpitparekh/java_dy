@@ -12,6 +12,7 @@ public class Sorting {
     //  7  8 15 45 77 13 12 54
 
     // This is Bubble Sort implementation in Java.
+    // yana = -220 IQ
 
     for (int i = 0; i < arr.length; i++) { // 12 // arr[i]
 

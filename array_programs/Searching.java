@@ -8,7 +8,7 @@ public class Searching {
     int element = 66;
 
     int flag = 0;
-
+    
     for (int i = 0; i < arr.length; i++) {
       if (element == arr[i]) {
         flag = 1;
