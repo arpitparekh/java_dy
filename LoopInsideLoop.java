@@ -10,7 +10,6 @@ public class LoopInsideLoop {
      *****
      *****
      *
-     *
      */
 
     int count = 0;
