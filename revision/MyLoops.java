@@ -36,7 +36,6 @@ public class MyLoops {
 
     System.out.println();
 
-
     MyLoops ml = new MyLoops();
     ml.display();
 
