@@ -54,6 +54,12 @@ class StringClass {
     int a = 12;
     System.out.println(String.valueOf(a));
 
+    String url = "https://cdn.pixabay.com/photo/2023/12/05/08/14/woman-8431035_1280.jpg";
+
+    System.out.println(url.lastIndexOf("."));
+    String urlExtension = url.substring(url.lastIndexOf(".")+1, url.length());
+    System.out.println(urlExtension);
+
   }
 
 }
