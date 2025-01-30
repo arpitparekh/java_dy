@@ -46,7 +46,6 @@ public class MyFunctions {
     } else {
       System.out.println("Not Prime");
     }
-
   }
 
 
@@ -96,7 +95,7 @@ public class MyFunctions {
     primeNumber(19);
 
     System.out.println(Math.sqrt(144));
-
+    
   }
 
 }
