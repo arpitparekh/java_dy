@@ -4,13 +4,15 @@ class StringClass {
 
     String name = "Hello";
 
+    // string functions
+
     // string manipulation
     for(int i=0;i<name.length();i++){  // 0 1 2 3 4
-      System.out.println(name.charAt(i));
+      System.out.println(name.charAt(i));   // name[i]
     }
 
     System.out.println(name.charAt(3)); // l
-    System.out.println(name.codePointAt(3));
+    System.out.println(name.codePointAt(3));  // 10101 // H e l l o
 
     String name2 = "hello";
 
@@ -33,13 +35,13 @@ class StringClass {
       System.out.println(arr[i]);
     }
 
-    System.out.println(name3.indexOf("com"));
+    System.out.println(name3.indexOf("om"));
 
     String name5 = "";
     System.out.println(name5.isEmpty());
 
     String name6 = "Bridge";
-    System.out.println(String.join("=>", name3, name6));
+    System.out.println(String.join("=>", name3, name6,"Welcome"));
 
     String data = "Hello World";
     System.out.println(data.lastIndexOf('o'));
@@ -54,7 +56,7 @@ class StringClass {
     int a = 12;
     System.out.println(String.valueOf(a));
 
-    String url = "https://cdn.pixabay.com/photo/2023/12/05/08/14/woman-8431035_1280.jpg";
+    String url = "https://cdn.pixabay.com/photo/2023/12/05/08/14/woman-8431035_1280.xlsx";
 
     System.out.println(url.lastIndexOf("."));
     String urlExtension = url.substring(url.lastIndexOf(".")+1, url.length());
