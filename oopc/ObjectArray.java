@@ -53,4 +53,8 @@ class College {
     System.out.println("Marks : " + marks);
   }
 
+  // 12345
+  // 23451
+  
+
 }
