@@ -34,9 +34,6 @@ public class AssignValues101 {
     m1.display();
     m2.display();
 
-    String name = "Bascom";
-
-
   }
 
 }

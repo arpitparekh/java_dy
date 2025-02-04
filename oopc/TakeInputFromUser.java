@@ -33,6 +33,20 @@ public class TakeInputFromUser {
 
     obj.close(); // release it from memory
 
+    // matrix multiplication
+    int[][] arr = { { 1, 2 }, { 3, 4 } };
+
+    /*
+     * Given an array Arr[] of size N.
+     *
+     * For every element in the array, the task is to find the index of the farthest
+     * element in the array to the right
+     *
+     * which is smaller than the current element
+     *
+     * and make an array of that element's index.
+     */
+
   }
 
 }
