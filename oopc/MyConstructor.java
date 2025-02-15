@@ -24,7 +24,9 @@ public class MyConstructor {
     // constructor name should be same as class name
     // constructor does not have a return type
 
-    Component c = new Component("Laptop", 10000, 10);
+    Component c;
+    c = new Component("Laptop", 10000, 10);
+
     c.display();
     Component c1 = new Component("Mouse", 100, 20);
     c1.display();
@@ -32,6 +34,13 @@ public class MyConstructor {
     MyConstructor mc = new MyConstructor(10, 20);
     mc.display();
 
+    //
+    // {1,2,3,4,5,6,7,9}  // {10,33,44,55,66}
+    // 9
+
+    // {1,2,3,0,0,45,0,4,0}
+    //
+    // {1,2,3,45,4,0,0,0,1,2,3,4}
   }
 
 }
