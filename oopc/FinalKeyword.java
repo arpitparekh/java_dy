@@ -1,6 +1,4 @@
 package oopc;
-
-
 final class Funtoos {
 
   final int a;
@@ -16,7 +14,6 @@ final class Funtoos {
 }
 
 // class Rumtoos extends Funtoos {
-
 
 // }
 
