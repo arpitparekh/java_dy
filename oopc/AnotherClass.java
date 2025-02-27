@@ -39,7 +39,6 @@ public class AnotherClass {
     System.out.println(a1.teeth);
 
     Adamkhor a2 = null;
-    // System.out.println(a2.name);
 
     sc.close();
 
